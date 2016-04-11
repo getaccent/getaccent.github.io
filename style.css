@@ -41,6 +41,7 @@ html, body {
 .left h1 {
   color: #323232;
   font-size: 56px;
+  letter-spacing: 1px;
 }
 
 .left h2 {
@@ -55,6 +56,22 @@ html, body {
   font-size: 20px;
   margin-top: 18px;
   line-height: 28px;
+}
+
+/* remove .left a when switching to app store badge */
+
+.left a {
+  height: 48px;
+  line-height: 46px;
+  border-radius: 24px;
+  width: 196px;
+  margin-top: 24px;
+  color: #fff;
+  background: #323232;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  cursor: default;
 }
 
 .left img {
@@ -93,7 +110,7 @@ html, body {
 .footer a {
   color: #aaa;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
   transition: color 0.5s ease;
   margin: 0 16px;
 }
