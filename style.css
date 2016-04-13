@@ -118,3 +118,48 @@ html, body {
 .footer a:hover {
   color: #888;
 }
+
+.mobilefooter {
+  height: 32px;
+  padding-bottom: 20px;
+  background: #aaa;
+  text-align: center;
+  color: #323232;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mobilefooter a {
+  width: 100%;
+  line-height: 32px;
+  color: #323232;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 16px;
+}
+
+@media (max-width: 760px) {
+  #left, #right {
+    height: 512px;
+    display: block;
+    width: 100%;
+    float: none;
+  }
+  
+  .footer {
+    display: none;
+  }
+  
+  .mobilefooter {
+    display: block;
+  }
+  
+  .right {
+    height: 90%;
+  }
+}
+
+@media (min-width: 761px) {
+  .mobilefooter {
+    display: none;
+  }
+}
