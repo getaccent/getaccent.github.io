@@ -122,6 +122,7 @@ html, body {
 #right .footer a {
   color: #323232;
   margin: 0;
+  font-weight 400;
 }
 
 #right .footer a:hover {
